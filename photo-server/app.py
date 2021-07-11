@@ -11,4 +11,4 @@ if __name__ == '__main__':
     app.config['JWT_SECRET_KEY'] = 'my_cool_secret'
     jwt = JWTManager(app)
     CORS(app)
-    app.run(host="0.0.0.0", port=5000)
+    app.run(port=5000)
