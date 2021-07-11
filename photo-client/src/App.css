@@ -1,0 +1,1627 @@
+
+
+#photosrow {
+  color: black;
+  width: 1000px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#loginform{
+  color: black;
+}
+#loginpart, #loginpart2{
+  color: black;
+
+}
+#loginpart2{
+  color: black;
+  font-family: 'Itim', cursive;
+  font-size: 25px;
+}
+#customerphoto{
+  width: 200px;
+}
+#commentform{
+  color: black;
+  width: 100%;
+  height: 700px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Modak&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+
+
+/*ABOUTPAGE*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  #iraabout{
+    width: 45%;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 15px solid #efefef;
+    object-fit: cover;
+    position: relative;
+  }
+  #square{
+    width: 250px;
+    height: 400px;
+    background-color: #e0c2b8;
+    position: absolute;
+    margin-left: 25%;
+  }
+  #square2{
+    width: 250px;
+    height: 400px;
+    margin-top: 20%;
+    background-color: rosybrown;
+    position: absolute;
+    margin-left: 52%;
+  }
+  #aboutme{
+    color: #9D6455;
+    margin-top: 2%;
+    font-family: 'Futurica_Light';
+    font-size: 2.7ch;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 50px;
+  }
+  #aboutcontainer{
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+  #aboutheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-bottom: 6%;
+  }
+
+}
+
+/*ABOUTPAGE*/
+/*Mobile*/
+@media screen and (max-width: 700px){
+  #iraabout{
+    width: 60vw;
+    margin-left: 18%;
+    margin-top: 8%;
+    border: 15px solid #efefef;
+    object-fit: cover;
+    position: relative;
+  }
+  #square{
+    width: 42vw;
+    height: 90vw;
+    background-color: #e0c2b8;
+    position: absolute;
+    margin-left: 5%;
+
+  }
+  #square2{
+    width: 42vw;
+    height: 90vw;
+    margin-top: 10%;
+    background-color: rosybrown;
+    position: absolute;
+    margin-left: 45%;
+  }
+  #aboutme{
+    margin-top: 20%;
+    color: #9D6455;
+    font-family: 'Futurica_Light';
+    font-size: 2.7ch;
+    font-weight: bold;
+    text-align: center;
+  }
+  #aboutcontainer{
+    margin-top: 2%;
+    margin-bottom: 6%;
+
+  }
+  #aboutheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-bottom: 6%;
+  }
+
+}
+/*COMMENTS*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  #commentscontainer{
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  #commentarii{
+    margin-top: 5%;
+  }
+  #commentauthor{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 30%;
+  }
+  #commenttext{
+    color: #6D3F2F;
+    font-weight: bold;
+    font-family: "Coco";
+    font-size: 20px;
+    margin-left: 30%;
+  }
+
+  #avatar{
+    clip-path: circle();
+    width: 100%;
+    margin-left: 90%;
+  }
+  #commentstar{
+    margin-left: 30%;
+  }
+  #commentrendering{
+    margin-top: 100px;
+  }
+  #commentuploading{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .mybutton2{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .mybutton2:hover{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #6D3F2F;
+    color: #e0c2b8;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: transform .5s ease;
+  }
+  .modal-content{
+    width: 600px;
+  }
+
+  .fileInput {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    padding-top: 30%;
+    padding-left: 12%;
+
+  }
+  .imgPreview {
+    text-align: center;
+    margin: 5px 15px;
+    height: 250px;
+    width: 250px;
+
+  }
+  .modal-title {
+    margin-left: 18%;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  span:hover{
+    color: black;
+    font-family: 'Futurica_Light';
+  }
+
+  span{
+    color: #6D3F2F;
+    padding-left: 30px;
+    font-family: 'Futurica_Light';
+    font-size: 2vw;
+    font-weight: bolder;
+    text-align: justify;
+  }
+  .mybutton3{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    border: 5px solid #e0c2b8;
+    font-weight: bold;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+  #commentsheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-left: 4%;
+
+  }
+}
+
+/*COMMENTS*/
+/*mobile*/
+@media screen and (max-width: 700px){
+  #commentscontainer{
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+  #commentarii{
+    margin-top: 5%;
+  }
+  #commentauthor{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  #commenttext{
+    color: #6D3F2F;
+    font-weight: bold;
+    font-family: "Coco";
+    font-size: 15px;
+    width: 300px;
+
+    margin-right: 15%;
+    text-align: justify;
+  }
+
+  #avatar{
+    clip-path: circle();
+    width: 50%;
+    margin-left: 20%;
+  }
+  #commentrendering{
+    margin-top: 100px;
+  }
+  #commentuploading{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .mybutton2{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .mybutton2:hover{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #6D3F2F;
+    color: #e0c2b8;
+    font-family: "Coco";
+    font-size: 17px;
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: transform .5s ease;
+  }
+  #commentstar{
+    margin-left: 30%;
+  }
+  .modal-content{
+    width: 340px;
+  }
+  .fileInput {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    padding-top: 30%;
+    padding-left: 1%;
+
+  }
+  .imgPreview {
+    text-align: center;
+    margin: 1px 9px;
+    height: 250px;
+    width: 250px;
+
+  }
+  .modal-title {
+    text-align: left;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-weight: bold;
+    font-size: 22px;
+    min-width: 100px;
+    margin-left: 12px;
+  }
+
+  span{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .mybutton3{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    border: 5px solid #e0c2b8;
+    font-weight: bold;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  #commentsheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-right: 10%;
+
+  }
+}
+
+
+
+.fileinput{
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.previewText{
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 30%;
+}
+.submitButton {
+  padding: 12px;
+  margin-left: 33%;
+  background: white;
+  border: 4px solid lightgray;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 10pt;
+  cursor: pointer;
+}
+.submitButton:hover{
+   background: #efefef;
+ }
+.centerText{
+  text-align: center;
+  width: 500px;
+}
+
+
+
+#errlog{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+
+}
+#adminlogin{
+  padding-top: 20%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#photosrendering{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 15%;
+
+}
+
+#photoad{
+  padding-right: 10%;
+  padding-top: 4%;
+  height: initial;
+}
+
+
+
+.wrapper{
+  text-align: center;
+}
+
+/*CAROUSEL*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .mycarousel{
+    width: 950px;
+    max-height: 700px;
+    min-width: 900px;
+    min-height: 690px;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+  }
+  .d-block {
+    max-width: 900px;
+    max-height: 690px;
+    min-width: 900px;
+    min-height: 690px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+  }
+  .caroselrow{
+    background-color: rgb(224,194,184,0.2);
+    border-radius: 2%;
+    left: auto;
+    margin-left: 15%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  .mybuttoncar{
+    margin-top: 50px;
+    background-color: #efefef;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 70%;
+  }
+  .mybuttoncar:hover{
+    background-color: #6D3F2F;
+    color: #efefef;
+    transform: scale(1.1);
+    transition: transform .3s ease;
+
+  }
+  hr{
+    display: none;
+  }
+
+
+}
+
+/*CAROUSEL*/
+/*MOBILE*/
+@media screen and (max-width: 700px){
+  .mycarousel{
+    width: 100%;
+    max-height: 500px;
+    left: 0%;
+    margin-top: 2%;
+
+  }
+  .d-block{
+    max-width: 600px;
+    max-height: 300px;
+    min-width: 350px;
+    min-height: 300px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mybuttoncar{
+    margin-top: 50px;
+    background-color: #efefef;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 21px;
+    font-weight: bold;
+
+  }
+  .mybuttoncar:hover{
+    background-color: #6D3F2F;
+    color: #efefef;
+    transform: scale(1.1);
+    transition: transform .3s ease;
+
+  }
+  hr {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    border-width: 2px;
+  }
+
+}
+
+  /*FOTO*/
+
+/*PHOTOPAGE*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .photomain{
+    display: block;
+    max-width: 830px;
+    min-width: 350px;
+    min-height: 300px;
+    max-height: 440px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #photocategcontainer{
+    margin-top: 5%;
+  }
+  .mybuttonphoto{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 18px;
+  }
+  /*SECONDPAGE*/
+  #photocon{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+
+  }
+
+  .photogenerator{
+    max-width: 1150px;
+    max-height: 500px;
+    min-width: 350px;
+    min-height: 300px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    left: 5%;
+  }
+
+
+  #photocols{
+    max-width: 700px;
+    max-height: 600px;
+    margin-right: 100px;
+
+
+  }
+  .photocategory{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 3.5ch;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .nameofcat{
+    color: #6D3F2F;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap');
+/*PHOTOPAGE*/
+/*Mobile*/
+
+@media screen and (max-width: 700px){
+  .photomain{
+    display: block;
+    max-width: 300px;
+    min-width: 150px;
+    min-height: 300px;
+    max-height: 440px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #photocategcontainer{
+    margin-top: 5%;
+  }
+  .photocategory{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 3.5ch;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .mybuttonphoto{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 18px;
+  }
+  /*SECONDPAGE*/
+  #photocon{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .photogenerator{
+    max-width: 300px;
+    max-height: 150px;
+    min-width: 350px;
+    min-height: 300px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+  }
+  .nameofcat{
+    color: #6D3F2F;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+  }
+
+}
+
+
+/*NAV*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .jumbotron {
+    padding:100px 30px 500px 30px;
+    margin:0px auto;
+    color:floralwhite;
+    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
+    background-size:cover;
+    background-blend-mode: multiply;
+    border-radius: 0px;
+    outline: 10px dotted #e0c2b8;
+  }
+
+  .mynav{
+    background-color: #E0C2B8;
+
+  }
+
+  .navigation:hover{
+    color: rosybrown;
+    font-family: 'Futurica_Light';
+  }
+  .navigation{
+    color: #6D3F2F;
+    padding-left: 30px;
+    font-family: 'Futurica_Light';
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+
+  body{
+    background-color: #efefef;
+    color: gray;
+  }
+  .navbar-expand-lg{
+    padding-left: 18%;
+  }
+
+  .nav-link{
+    color: #fdf2e4;
+  }
+
+}
+/*NAV*/
+/*mobile*/
+@media screen and (max-width: 700px){
+  .jumbotron {
+    padding: 150px 0px 30px 0px;
+
+    color:floralwhite;
+    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
+    background-size:cover;
+    background-blend-mode: multiply;
+    border-radius: 0px;
+    outline: 8px dotted #e0c2b8;
+
+  }
+
+  .mynav{
+    background-color: #E0C2B8;
+
+  }
+  .navigation:hover{
+    color: rosybrown;
+    font-family: 'Futurica_Light';
+  }
+  .navigation{
+    color: #6D3F2F;
+    padding-left: 40px;
+    padding-right: 83px;
+    font-family: 'Futurica_Light';
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  body{
+    background-color: #efefef;
+    color: gray;
+  }
+
+  .nav-link{
+    color: #fdf2e4;
+    padding-left: 40px;
+  }
+
+}
+
+
+/*home*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+    /*outline: 5px solid rgb(224,194,184, 0.7);*/
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-top: 200ch;
+    margin-left: auto;
+    height: 60%;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease;
+  }
+
+
+  .card-body{
+    padding-top: 18%;
+  }
+
+  .myformtext{
+    position: absolute;
+    z-index: 999;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  #uslugi{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+  }
+  #whatweoffer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .mybutton{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .mybutton1{
+    margin-top: 5%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 20%;
+    height: fit-content;
+  }
+
+  #right_side{
+    background-color: #e0c2b8;
+    padding-bottom: 5%;
+  }
+  #row_about{
+    width: 100%;
+  }
+  .card-img{
+    padding-left: 100px;
+  }
+  #ira{
+    margin-top: 18%;
+    border: 10px solid #fdf2e4;
+    margin-left: -40%;
+    width: 110%;
+    border-radius: 2%;
+  }
+  #ira2{
+    width: 30%;
+    border: 10px solid #fdf2e4;
+    margin-left: 40%;
+    margin-top: -15%;
+    border-radius: 2%;
+  }
+  .my_card-text{
+    background-color: #efefef;
+    outline: 10px dotted rgb(224,194,184,0.7);
+    border-radius: 1%;
+    margin-top: 80%;
+    height: 60%;
+    margin-left: 30% ;
+    padding-top: 10%;
+    margin-right: -20%;
+    z-index: 1;
+    position:relative;
+    color: #6D3F2F;
+
+    font-family: 'Futurica_Light';
+    font-size: 1.2vw;
+    font-weight: bold;
+  }
+  #irinatext{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-indent: 20px;
+
+  }
+
+  #left_side{
+    padding-left: 10%;
+  }
+
+  #hi{
+    color: #6D3F2F;
+    font-family: 'Allegretto-Script-One';
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-left: 20%;
+    padding-bottom: 5%;
+  }
+  .newrow{
+    padding-top: 200px;
+  }
+  .footer{
+    background-color: #9d6455;
+    padding-top: 3%;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    padding-left: 13%;
+
+  }
+  .footerlist{
+    display: inline;
+    color: #fdf2e4;
+    padding-left: 5%;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .footerlink{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footerlink:hover{
+    color: pink;
+    text-decoration: none;
+  }
+  .container{
+    min-height: calc(100vh - 210px);
+    min-width: 1600px;
+  }
+
+}
+/**home*!*/
+/*^^^^DESKTOP*/
+
+
+
+/*home*/
+/*Mobile*/
+@media screen and (max-width: 700px){
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: max-content;
+    max-width: fit-content;
+
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+    /*outline: 5px solid rgb(224,194,184, 0.7);*/
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-top: 200ch;
+
+    height: 70%;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease;
+  }
+  .col-xs-8{
+    margin-left: 15%;
+  }
+
+
+  .card-body{
+    padding-top: 18%;
+    max-width: 230px;
+    min-width: 220px;
+
+  }
+  .myformtext{
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .usltext{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #uslugi{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 32px;
+    font-weight: bolder;
+
+    margin-top: 50px;
+  }
+  #whatweoffer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .mybutton{
+
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+
+  .mybutton1{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 15%;
+  }
+
+  #right_side{
+    background-color: #e0c2b8;
+    padding-bottom: 10%;
+    margin-left: 3%;
+    margin-right: -5%;
+
+  }
+
+  #row_about{
+    width: 100%;
+  }
+
+  .card-img{
+    padding-left: 20%;
+  }
+
+
+  #ira{
+    margin-top: 18%;
+    border: 10px solid #fdf2e4;
+    margin-left: -20%;
+    width: 110%;
+    border-radius: 2%;
+  }
+  #ira2{
+    width: 60%;
+    border: 10px solid #fdf2e4;
+    margin-left: 10%;
+    margin-top: -10%;
+    border-radius: 2%;
+  }
+  .my_card-text{
+    background-color: #efefef;
+    outline: 10px dotted rgb(224,194,184,0.7);
+    border-radius: 1%;
+    margin-top: 30%;
+    height: 80%;
+
+    padding-top: 10%;
+    z-index: 1;
+    position:relative;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 17%;
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  #left_side{
+    /*padding-right: 5%;*/
+  }
+
+  #hi{
+    color: #6D3F2F;
+    font-family: 'Allegretto-Script-One';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+  .newrow{
+    padding-top: 200px;
+  }
+  .footer{
+    background-color: #9d6455;
+  }
+  .footerlist{
+    display: flex;
+    color: #fdf2e4;
+    padding-left: 10%;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footerlink{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footerlink:hover{
+    color: pink;
+    text-decoration: none;
+  }
+}
+/*home*/
+/*^^^^Mobile*/
+
+
+/*PRICES*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+    /*outline: 5px solid rgb(224,194,184, 0.7);*/
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-size: 0.9vw;
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    min-height: calc(60vh - 20px);
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
+  .price {
+    color: #6D3F2F;
+    margin-bottom: fill;
+    background-color: #efefef;
+  }
+  .card-footer{
+    padding-bottom: 0px;
+    bottom: 0;
+    background-color: #efefef;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .card-text {
+    min-height: calc(60vh - 50px);
+  }
+  .list-group .list-group-item{
+    background-color: #efefef;
+    border: none;
+  }
+  .card-header{
+    color: #6D3F2F;
+    font-family: 'Angelica';
+    font-size: 3.9vw;
+    text-align: center;
+  }
+  .card1:hover{
+    transform: scale(1.05);
+    transition: transform .3s ease;
+  }
+  #pricesheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-top: 2%;
+  }
+}
+
+/*PRICES*/
+/*Mobile*/
+@media screen and (max-width: 700px){
+  .card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-size: 5vw;
+    text-align: center;
+    width: 100%;
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+    min-height: calc(60vh - 20px);
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
+  .price {
+    color: #6D3F2F;
+    margin-bottom: fill;
+    background-color: #efefef;
+  }
+  .card-footer{
+    padding-bottom: 0px;
+    bottom: 0;
+    background-color: #efefef;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .card-text {
+    min-height: calc(60vh - 50px);
+  }
+  .list-group .list-group-item{
+    background-color: #efefef;
+    border: none;
+  }
+  .card-header{
+    color: #6D3F2F;
+    font-family: 'Angelica';
+    font-size: 18vw;
+    text-align: center;
+  }
+  .card1:hover{
+    transform: scale(1.05);
+    transition: transform .3s ease;
+  }
+  #pricesheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-bottom: 6%;
+  }
+  #pricesheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-top: 2%;
+  }
+}
+
+
+/*MAKEORDER*/
+
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  #reqcont {
+
+  }
+  .requestinputs{
+    margin-left: 25%;
+    z-index: 9998!important;
+
+  }
+  #orderinput{
+    background-image: url("new.svg");
+    margin-top: 4%;
+    margin-bottom: 10%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    z-index: -10;
+    box-shadow: 0 0 5pt 10pt rgb(243 233 224 / 20%);
+
+  }
+
+  #requestheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5ch;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    z-index: 5;
+  }
+  .mybutton4{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 85%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #D1AFA3;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .requestlabel{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 2.5ch;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+}
+/*MAKEORDER*/
+
+/*mobile*/
+@media screen and (max-width: 700px){
+  #reqcont {
+
+  }
+  .requestinputs{
+    z-index: 9998!important;
+
+  }
+  #orderinput{
+    background-image: url("new.svg");
+    margin-top: 4%;
+    margin-bottom: 10%;
+    width: 90%;
+    margin-left: 5%;
+
+    mask-repeat: no-repeat;
+    mask-position: center;
+    z-index: -10;
+    box-shadow: 0 0 5pt 10pt rgb(243 233 224 / 20%);
+
+  }
+
+  #requestheader{
+    color: #6d3f2f;
+    font-family: 'Futurica_Light';
+    font-size: 3.2ch;
+    font-weight: bolder;
+    margin-bottom: 7%;
+    margin-top: 4%;
+    z-index: 5;
+  }
+  .mybutton4{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #D1AFA3;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .requestlabel{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 1.9ch;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+}
+
+/*REQUEST,ORDERS*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  #clientphoto{
+    width: 30%;
+  }
+  .photoref{
+    max-width: 1250px;
+    max-height: 600px;
+    min-width: 350px;
+    min-height: 300px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    right: 40%;
+
+  }
+  #requestcontainer{
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  #requestrow{
+    margin-left: 20%;
+  }
+  #requestbody{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Futurica_Light';
+  }
+
+}
+/*REQUEST,ORDERS*/
+/*mobile*/
+@media screen and (max-width: 700px){
+  #clientphoto{
+    width: 90%;
+  }
+  .photoref{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    right: 40%;
+
+  }
+  #requestcontainer{
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  #requestrow{
+    margin-left: 5%;
+  }
+  #requestbody{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Futurica_Light';
+  }
+
+}
+
+/*CONTACTPAGE*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .button {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    min-width: 30vw;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: border 0.2s ease, background 0.2s ease, color 0.2s ease;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: #ad8578;
+    box-shadow: 0 0 3pt 3pt rgb(224 194 184 / 60%);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: Futurica_Light;
+
+  }
+  .button:hover{
+    color: rgba(0, 0, 0, 0.5);
+    background: -webkit-linear-gradient(90deg, #e0c2b8, #f1c5c5) !important;
+    background: -moz- oldlinear-gradient(90deg, #e0c2b8, #f1c5c5) !important;
+    background: -o-linear-gradient(90deg, #e0c2b8, #e0c2b8) !important;
+    background: linear-gradient(90deg , #e0c2b8, #f1c5c5) !important;
+    background-size: cover;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    border: 2px solid rgb(211 150 130 / 30%);;
+    box-shadow: 0 0 0pt 0pt rgb(196 130 130 / 100%);
+
+  }
+  #contactheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+    margin-bottom: 6%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  .icon, .icon:hover{
+    width: 30px;
+    margin-bottom: 5px;
+
+    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
+    margin-right: 10px;
+  }
+}
+
+/*CONTACTPAGE*/
+/*mobile*/
+@media screen and (max-width: 700px){
+  .button {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    min-width: 90vw;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: border 0.2s ease, background 0.2s ease, color 0.2s ease;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.02);
+    color: #ad8578;
+    box-shadow: 0 0 3pt 3pt rgb(224 194 184 / 60%);
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: Futurica_Light;
+
+  }
+  .button:hover{
+    color: rgba(0, 0, 0, 0.5);
+    background: -webkit-linear-gradient(90deg, #e0c2b8, #f1c5c5) !important;
+    background: -moz- oldlinear-gradient(90deg, #e0c2b8, #f1c5c5) !important;
+    background: -o-linear-gradient(90deg, #e0c2b8, #e0c2b8) !important;
+    background: linear-gradient(90deg , #e0c2b8, #f1c5c5) !important;
+    background-size: cover;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    border: 2px solid rgb(211 150 130 / 30%);;
+    box-shadow: 0 0 0pt 0pt rgb(196 130 130 / 100%);
+
+  }
+  #contactheader{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 4ch;
+    font-weight: bolder;
+    margin-bottom: 10%;
+    margin-top: 5%;
+
+  }
+  .icon, .icon:hover{
+    width: 30px;
+    margin-bottom: 5px;
+
+    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
+    margin-right: 10px;
+  }
+  #contactsrow{
+    margin-bottom: 10%;
+  }
+
+}
