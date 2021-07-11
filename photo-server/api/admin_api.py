@@ -63,5 +63,6 @@ def handle_photo():
         data = request.json
         PHOTO_DB.delete_photo(id=data['id'])
         imagename = data['name']
-        os.remove(f'{imagename}')
+        if os.path.exists(imagename):
+            os.remove(imagename)
         return jsonify({'status': 'ok'})
