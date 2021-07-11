@@ -72,9 +72,10 @@ class InitializeDB:
     def find_comment_by_id(self, id):
         return list(self.session.execute(f"SELECT * FROM comments WHERE id = {id}"))
 
-    #
+
     def delete_photo(self, id):
         self.session.execute(f"DELETE FROM photos WHERE id = {id}")
+        self.connection.commit()
 
 
     def find_all_comments(self):
