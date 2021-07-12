@@ -649,7 +649,7 @@ img {
 /*Mobile*/
 @media screen and (max-width: 700px){
   #iraabout{
-    width: 60vw;
+    width: 65%;
     margin-left: 18%;
     margin-top: 8%;
     border: 15px solid #efefef;

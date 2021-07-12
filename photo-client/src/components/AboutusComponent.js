@@ -24,7 +24,7 @@ class About extends Component {
 
                             </div>
                             <div>
-                                <img alt='ira' src={'assets/images/5.jpg'} id='iraabout' />
+                                <img alt='ira' src={'assets/images/5supermin.jpg'} id='iraabout' />
                             </div>
                         </div>
                         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-5'>
