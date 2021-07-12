@@ -130,36 +130,29 @@ class Home extends Component {
                         <div className='col-xs-12 col-sm-12 text-center'>
                             <h5 id='uslugi'>Услуги</h5>
                         </div>
-                        <div className='col-xs-8 col-sm-3 offset-sm-1 '>
+
+                        <div className='col-xs-12 col-sm-3 ' id='commentcols'>
                             <div className="card border-left-primary shadow h-80 py-1" onClick={()=>this.setState({pregnant: true, family:false, children: false})}>
                                 <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col col xs-12 mr-2">
-                                            <h3 className='usltext'>Съемка беременности</h3>
-                                        </div>
-                                    </div>
+                                    <h3 className='usltext'>Съемка беременности</h3>
+
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xs-8 col-sm-3'>
+                        <div className='col-xs-12 col-sm-3' id='commentcols2'>
                             <div className="card border-left-primary shadow h-80 py-1" onClick={()=>this.setState({family: true, pregnant:false, children:false})}>
                                 <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col xs-12 mr-2">
-                                            <h3 className='usltext'> Семейная съемка</h3>
-                                        </div>
-                                    </div>
+                                    <h3 className='usltext'> Семейная съемка</h3>
+
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xs-8 col-sm-3 '>
+                        <div className='col-xs-12 col-sm-3' id='commentcols3'>
                             <div className="card border-left-primary shadow h-80 py-1" onClick={()=>this.setState({children: true, pregnant:false, family:false})}>
                                 <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col col xs-12 mr-2">
-                                            <h3 className='usltext'> Детская фотосессия </h3>
-                                        </div>
-                                    </div>
+                                    <h3 className='usltext'> Детская фотосессия </h3>
+
+
                                 </div>
                             </div>
                         </div>
