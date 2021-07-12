@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Modak&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap');
 
 #photosrow {
   color: black;
@@ -9,7 +16,6 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 
 #loginform{
   color: black;
@@ -32,37 +38,557 @@
   height: 700px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+.fileinput{
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Modak&display=swap');
+img {
+  width: 100%;
+  height: 100%;
+}
+.previewText{
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 30%;
+}
+.submitButton {
+  padding: 12px;
+  margin-left: 33%;
+  background: white;
+  border: 4px solid lightgray;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 10pt;
+  cursor: pointer;
+}
+.submitButton:hover{
+  background: #efefef;
+}
+.centerText{
+  text-align: center;
+  width: 500px;
+}
 
 
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
+#errlog{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+
+}
+#adminlogin{
+  padding-top: 20%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#photosrendering{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 15%;
+
+}
+
+#photoad{
+  padding-right: 10%;
+  padding-top: 4%;
+  height: initial;
+}
+
+
+
+.wrapper{
+  text-align: center;
+}
+
+
+/*NAV*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .jumbotron {
+    padding:100px 30px 500px 30px;
+    margin:0px auto;
+    color:floralwhite;
+    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
+    background-size:cover;
+    background-blend-mode: multiply;
+    border-radius: 0px;
+    outline: 10px dotted #e0c2b8;
+  }
+
+  .mynav{
+    background-color: #E0C2B8;
+
+  }
+
+  .navigation:hover{
+    color: rosybrown;
+    font-family: 'Futurica_Light';
+  }
+  .navigation{
+    color: #6D3F2F;
+    padding-left: 30px;
+    font-family: 'Futurica_Light';
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+
+  body{
+    background-color: #efefef;
+    color: gray;
+  }
+  .navbar-expand-lg{
+    padding-left: 18%;
+  }
+
+  .nav-link{
+    color: #fdf2e4;
+  }
+
+}
+/*NAV*/
+/*mobile*/
+@media screen and (max-width: 700px){
+  .jumbotron {
+    padding: 150px 0px 30px 0px;
+
+    color:floralwhite;
+    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
+    background-size:cover;
+    background-blend-mode: multiply;
+    border-radius: 0px;
+    outline: 8px dotted #e0c2b8;
+
+  }
+
+  .mynav{
+    background-color: #E0C2B8;
+
+  }
+  .navigation:hover{
+    color: rosybrown;
+    font-family: 'Futurica_Light';
+  }
+  .navigation{
+    color: #6D3F2F;
+    padding-left: 40px;
+    padding-right: 83px;
+    font-family: 'Futurica_Light';
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  body{
+    background-color: #efefef;
+    color: gray;
+  }
+
+  .nav-link{
+    color: #fdf2e4;
+    padding-left: 40px;
+  }
+
+}
+
+
+/*home*/
+/*DESKTOP*/
+@media screen and (min-width: 700px){
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+    /*outline: 5px solid rgb(224,194,184, 0.7);*/
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-top: 200ch;
+    margin-left: auto;
+    height: 60%;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease;
+  }
+
+
+  .card-body{
+    padding-top: 18%;
+  }
+
+  .myformtext{
+    position: absolute;
+    z-index: 999;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  #uslugi{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 5.5ch;
+    font-weight: bolder;
+  }
+  #whatweoffer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .mybutton{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .mybutton1{
+    margin-top: 5%;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 20%;
+    height: fit-content;
+  }
+
+  #right_side{
+    background-color: #e0c2b8;
+    padding-bottom: 5%;
+  }
+  #row_about{
+    width: 100%;
+  }
+  .card-img{
+    padding-left: 100px;
+  }
+  #ira{
+    margin-top: 18%;
+    border: 10px solid #fdf2e4;
+    margin-left: -40%;
+    width: 110%;
+    border-radius: 2%;
+  }
+  #ira2{
+    width: 30%;
+    border: 10px solid #fdf2e4;
+    margin-left: 40%;
+    margin-top: -15%;
+    border-radius: 2%;
+  }
+  .my_card-text{
+    background-color: #efefef;
+    outline: 10px dotted rgb(224,194,184,0.7);
+    border-radius: 1%;
+    margin-top: 80%;
+    height: 60%;
+    margin-left: 30% ;
+    padding-top: 10%;
+    margin-right: -20%;
+    z-index: 1;
+    position:relative;
+    color: #6D3F2F;
+
+    font-family: 'Futurica_Light';
+    font-size: 1.2vw;
+    font-weight: bold;
+  }
+  #irinatext{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-indent: 20px;
+
+  }
+
+  #left_side{
+    padding-left: 10%;
+  }
+
+  #hi{
+    color: #6D3F2F;
+    font-family: 'Allegretto-Script-One';
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-left: 20%;
+    padding-bottom: 5%;
+  }
+  .newrow{
+    padding-top: 200px;
+  }
+  .footer{
+    background-color: #9d6455;
+    padding-top: 3%;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    padding-left: 13%;
+
+  }
+  .footerlist{
+    display: inline;
+    color: #fdf2e4;
+    padding-left: 5%;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .footerlink{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footerlink:hover{
+    color: pink;
+    text-decoration: none;
+  }
+  .container{
+    min-height: calc(100vh - 210px);
+    min-width: 100%;
+  }
+
+}
+/**home*!*/
+/*^^^^DESKTOP*/
+
+
+
+/*home*/
+/*Mobile*/
+@media screen and (max-width: 700px){
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: max-content;
+    max-width: fit-content;
+
+    background-clip: border-box;
+    border: 2px solid rgb(224,194,184, 0.6);
+    border-radius: 0.7rem;
+    background-color: #efefef;
+    /*outline: 5px solid rgb(224,194,184, 0.7);*/
+    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-top: 200ch;
+
+    height: 70%;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    transition: transform .3s ease;
+  }
+  .col-xs-8{
+    margin-left: 15%;
+  }
+
+
+  .card-body{
+    padding-top: 18%;
+    max-width: 230px;
+    min-width: 220px;
+
+  }
+  .myformtext{
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .usltext{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #uslugi{
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 32px;
+    font-weight: bolder;
+
+    margin-top: 50px;
+  }
+  #whatweoffer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .mybutton{
+
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+
+  .mybutton1{
+    margin-top: 50px;
+    background-color: #e0c2b8;
+    color: #6D3F2F;
+    font-family: "Coco";
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 15%;
+  }
+
+  #right_side{
+    background-color: #e0c2b8;
+    padding-bottom: 10%;
+    margin-left: 3%;
+    margin-right: -5%;
+
+  }
+
+  #row_about{
+    width: 100%;
+  }
+
+  .card-img{
+    padding-left: 20%;
+  }
+
+
+  #ira{
+    margin-top: 18%;
+    border: 10px solid #fdf2e4;
+    margin-left: -20%;
+    width: 110%;
+    border-radius: 2%;
+  }
+  #ira2{
+    width: 60%;
+    border: 10px solid #fdf2e4;
+    margin-left: 10%;
+    margin-top: -10%;
+    border-radius: 2%;
+  }
+  .my_card-text{
+    background-color: #efefef;
+    outline: 10px dotted rgb(224,194,184,0.7);
+    border-radius: 1%;
+    margin-top: 30%;
+    height: 80%;
+
+    padding-top: 10%;
+    z-index: 1;
+    position:relative;
+    color: #6D3F2F;
+    font-family: 'Futurica_Light';
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 17%;
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  #left_side{
+    /*padding-right: 5%;*/
+  }
+
+  #hi{
+    color: #6D3F2F;
+    font-family: 'Allegretto-Script-One';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+  .newrow{
+    padding-top: 200px;
+  }
+  .footer{
+    background-color: #9d6455;
+  }
+  .footerlist{
+    display: flex;
+    color: #fdf2e4;
+    padding-left: 10%;
+    font-family: 'Futurica_Light';
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footerlink{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footerlink:hover{
+    color: pink;
+    text-decoration: none;
+  }
+}
+/*home*/
+/*^^^^Mobile*/
 
 
 /*ABOUTPAGE*/
 /*DESKTOP*/
 @media screen and (min-width: 700px){
   #iraabout{
-    width: 45%;
-    margin-left: 35%;
+    width: 40%;
+    margin-left: 38%;
     margin-top: 5%;
     border: 15px solid #efefef;
     object-fit: cover;
     position: relative;
   }
   #square{
-    width: 250px;
-    height: 400px;
+    width: 18vw;
+    height: 25vw;
     background-color: #e0c2b8;
     position: absolute;
     margin-left: 25%;
   }
   #square2{
-    width: 250px;
-    height: 400px;
-    margin-top: 20%;
+    width: 18vw;
+    height: 25vw;
+    margin-top: 15%;
     background-color: rosybrown;
     position: absolute;
     margin-left: 52%;
@@ -71,7 +597,7 @@
     color: #9D6455;
     margin-top: 2%;
     font-family: 'Futurica_Light';
-    font-size: 2.7ch;
+    font-size: 1.3vw;
     font-weight: bold;
     text-align: justify;
     text-indent: 50px;
@@ -394,74 +920,6 @@
 
 
 
-.fileinput{
-  padding: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
-.previewText{
-  width: 100%;
-  margin-top: 20px;
-  padding-top: 30%;
-}
-.submitButton {
-  padding: 12px;
-  margin-left: 33%;
-  background: white;
-  border: 4px solid lightgray;
-  border-radius: 15px;
-  font-weight: 700;
-  font-size: 10pt;
-  cursor: pointer;
-}
-.submitButton:hover{
-   background: #efefef;
- }
-.centerText{
-  text-align: center;
-  width: 500px;
-}
-
-
-
-#errlog{
-  align-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: red;
-
-}
-#adminlogin{
-  padding-top: 20%;
-  align-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#photosrendering{
-  margin-top: 4%;
-  margin-bottom: 4%;
-  margin-left: 15%;
-
-}
-
-#photoad{
-  padding-right: 10%;
-  padding-top: 4%;
-  height: initial;
-}
-
-
-
-.wrapper{
-  text-align: center;
-}
 
 /*CAROUSEL*/
 /*DESKTOP*/
@@ -644,7 +1102,7 @@ img {
     font-weight: bold;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap');
+
 /*PHOTOPAGE*/
 /*Mobile*/
 
@@ -711,463 +1169,6 @@ img {
 }
 
 
-/*NAV*/
-/*DESKTOP*/
-@media screen and (min-width: 700px){
-  .jumbotron {
-    padding:100px 30px 500px 30px;
-    margin:0px auto;
-    color:floralwhite;
-    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
-    background-size:cover;
-    background-blend-mode: multiply;
-    border-radius: 0px;
-    outline: 10px dotted #e0c2b8;
-  }
-
-  .mynav{
-    background-color: #E0C2B8;
-
-  }
-
-  .navigation:hover{
-    color: rosybrown;
-    font-family: 'Futurica_Light';
-  }
-  .navigation{
-    color: #6D3F2F;
-    padding-left: 30px;
-    font-family: 'Futurica_Light';
-    font-size: 1.3vw;
-    font-weight: bold;
-  }
-
-  body{
-    background-color: #efefef;
-    color: gray;
-  }
-  .navbar-expand-lg{
-    padding-left: 18%;
-  }
-
-  .nav-link{
-    color: #fdf2e4;
-  }
-
-}
-/*NAV*/
-/*mobile*/
-@media screen and (max-width: 700px){
-  .jumbotron {
-    padding: 150px 0px 30px 0px;
-
-    color:floralwhite;
-    background: url('flo.jpg') rgb(224, 194, 184, 0.7);
-    background-size:cover;
-    background-blend-mode: multiply;
-    border-radius: 0px;
-    outline: 8px dotted #e0c2b8;
-
-  }
-
-  .mynav{
-    background-color: #E0C2B8;
-
-  }
-  .navigation:hover{
-    color: rosybrown;
-    font-family: 'Futurica_Light';
-  }
-  .navigation{
-    color: #6D3F2F;
-    padding-left: 40px;
-    padding-right: 83px;
-    font-family: 'Futurica_Light';
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-
-  body{
-    background-color: #efefef;
-    color: gray;
-  }
-
-  .nav-link{
-    color: #fdf2e4;
-    padding-left: 40px;
-  }
-
-}
-
-
-/*home*/
-/*DESKTOP*/
-@media screen and (min-width: 700px){
-  .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: fit-content;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 2px solid rgb(224,194,184, 0.6);
-    border-radius: 0.7rem;
-    background-color: #efefef;
-    /*outline: 5px solid rgb(224,194,184, 0.7);*/
-    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    width: 70%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    padding-top: 200ch;
-    margin-left: auto;
-    height: 60%;
-  }
-  .card:hover{
-    transform: scale(1.2);
-    transition: transform .3s ease;
-  }
-
-
-  .card-body{
-    padding-top: 18%;
-  }
-
-  .myformtext{
-    position: absolute;
-    z-index: 999;
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-
-  #uslugi{
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 5.5ch;
-    font-weight: bolder;
-  }
-  #whatweoffer{
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-  }
-
-  .mybutton{
-    margin-top: 50px;
-    background-color: #e0c2b8;
-    color: #6D3F2F;
-    font-family: "Coco";
-    font-size: 20px;
-    font-weight: bold;
-
-  }
-
-  .mybutton1{
-    margin-top: 5%;
-    background-color: #e0c2b8;
-    color: #6D3F2F;
-    font-family: "Coco";
-    font-size: 1vw;
-    font-weight: bold;
-    margin-left: 20%;
-    height: fit-content;
-  }
-
-  #right_side{
-    background-color: #e0c2b8;
-    padding-bottom: 5%;
-  }
-  #row_about{
-    width: 100%;
-  }
-  .card-img{
-    padding-left: 100px;
-  }
-  #ira{
-    margin-top: 18%;
-    border: 10px solid #fdf2e4;
-    margin-left: -40%;
-    width: 110%;
-    border-radius: 2%;
-  }
-  #ira2{
-    width: 30%;
-    border: 10px solid #fdf2e4;
-    margin-left: 40%;
-    margin-top: -15%;
-    border-radius: 2%;
-  }
-  .my_card-text{
-    background-color: #efefef;
-    outline: 10px dotted rgb(224,194,184,0.7);
-    border-radius: 1%;
-    margin-top: 80%;
-    height: 60%;
-    margin-left: 30% ;
-    padding-top: 10%;
-    margin-right: -20%;
-    z-index: 1;
-    position:relative;
-    color: #6D3F2F;
-
-    font-family: 'Futurica_Light';
-    font-size: 1.2vw;
-    font-weight: bold;
-  }
-  #irinatext{
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-indent: 20px;
-
-  }
-
-  #left_side{
-    padding-left: 10%;
-  }
-
-  #hi{
-    color: #6D3F2F;
-    font-family: 'Allegretto-Script-One';
-    font-size: 2.2vw;
-    font-weight: bold;
-    margin-left: 20%;
-    padding-bottom: 5%;
-  }
-  .newrow{
-    padding-top: 200px;
-  }
-  .footer{
-    background-color: #9d6455;
-    padding-top: 3%;
-    bottom: 0px;
-    width: 100%;
-    clear: both;
-    padding-left: 13%;
-
-  }
-  .footerlist{
-    display: inline;
-    color: #fdf2e4;
-    padding-left: 5%;
-    font-family: 'Futurica_Light';
-    font-size: 20px;
-    text-decoration: none;
-  }
-  .footerlink{
-    color: aliceblue;
-    text-decoration: none;
-  }
-  .footerlink:hover{
-    color: pink;
-    text-decoration: none;
-  }
-  .container{
-    min-height: calc(100vh - 210px);
-    min-width: 1600px;
-  }
-
-}
-/**home*!*/
-/*^^^^DESKTOP*/
-
-
-
-/*home*/
-/*Mobile*/
-@media screen and (max-width: 700px){
-  .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: max-content;
-    max-width: fit-content;
-
-    background-clip: border-box;
-    border: 2px solid rgb(224,194,184, 0.6);
-    border-radius: 0.7rem;
-    background-color: #efefef;
-    /*outline: 5px solid rgb(224,194,184, 0.7);*/
-    box-shadow: 0 0 5pt 6pt rgb(224,194,184, 0.6);
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    padding-top: 200ch;
-
-    height: 70%;
-  }
-  .card:hover{
-    transform: scale(1.2);
-    transition: transform .3s ease;
-  }
-  .col-xs-8{
-    margin-left: 15%;
-  }
-
-
-  .card-body{
-    padding-top: 18%;
-    max-width: 230px;
-    min-width: 220px;
-
-  }
-  .myformtext{
-    /*position: absolute;*/
-    /*z-index: 1;*/
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 10px;
-    font-weight: bold;
-  }
-  .usltext{
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  #uslugi{
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 32px;
-    font-weight: bolder;
-
-    margin-top: 50px;
-  }
-  #whatweoffer{
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-  }
-
-  .mybutton{
-
-    background-color: #e0c2b8;
-    color: #6D3F2F;
-    font-family: "Coco";
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 100px;
-  }
-
-  .mybutton1{
-    margin-top: 50px;
-    background-color: #e0c2b8;
-    color: #6D3F2F;
-    font-family: "Coco";
-    font-size: 20px;
-    font-weight: bold;
-    height: 50px;
-    margin-left: 15%;
-  }
-
-  #right_side{
-    background-color: #e0c2b8;
-    padding-bottom: 10%;
-    margin-left: 3%;
-    margin-right: -5%;
-
-  }
-
-  #row_about{
-    width: 100%;
-  }
-
-  .card-img{
-    padding-left: 20%;
-  }
-
-
-  #ira{
-    margin-top: 18%;
-    border: 10px solid #fdf2e4;
-    margin-left: -20%;
-    width: 110%;
-    border-radius: 2%;
-  }
-  #ira2{
-    width: 60%;
-    border: 10px solid #fdf2e4;
-    margin-left: 10%;
-    margin-top: -10%;
-    border-radius: 2%;
-  }
-  .my_card-text{
-    background-color: #efefef;
-    outline: 10px dotted rgb(224,194,184,0.7);
-    border-radius: 1%;
-    margin-top: 30%;
-    height: 80%;
-
-    padding-top: 10%;
-    z-index: 1;
-    position:relative;
-    color: #6D3F2F;
-    font-family: 'Futurica_Light';
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 17%;
-    margin-left: 10%;
-    width: 300px;
-  }
-
-  #left_side{
-    /*padding-right: 5%;*/
-  }
-
-  #hi{
-    color: #6D3F2F;
-    font-family: 'Allegretto-Script-One';
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-
-
-  .newrow{
-    padding-top: 200px;
-  }
-  .footer{
-    background-color: #9d6455;
-  }
-  .footerlist{
-    display: flex;
-    color: #fdf2e4;
-    padding-left: 10%;
-    font-family: 'Futurica_Light';
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .footerlink{
-    color: aliceblue;
-    text-decoration: none;
-  }
-  .footerlink:hover{
-    color: pink;
-    text-decoration: none;
-  }
-}
-/*home*/
-/*^^^^Mobile*/
 
 
 /*PRICES*/
@@ -1498,6 +1499,12 @@ img {
 /*CONTACTPAGE*/
 /*DESKTOP*/
 @media screen and (min-width: 700px){
+  .icon, .icon:hover{
+    width: 30px;
+    margin-bottom: 5px;
+    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
+    margin-right: 10px;
+  }
   .button {
     display: inline-block;
     position: relative;
@@ -1550,18 +1557,21 @@ img {
     margin-top: 2%;
     margin-left: 3%;
   }
-  .icon, .icon:hover{
-    width: 30px;
-    margin-bottom: 5px;
 
-    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
-    margin-right: 10px;
-  }
 }
 
 /*CONTACTPAGE*/
 /*mobile*/
 @media screen and (max-width: 700px){
+  .icon, .icon:hover{
+    width: 30px;
+    margin-bottom: 5px;
+    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
+    margin-right: 10px;
+  }
+  #contactsrow{
+    margin-bottom: 10%;
+  }
   .button {
     display: inline-block;
     position: relative;
@@ -1613,15 +1623,4 @@ img {
     margin-top: 5%;
 
   }
-  .icon, .icon:hover{
-    width: 30px;
-    margin-bottom: 5px;
-
-    filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
-    margin-right: 10px;
-  }
-  #contactsrow{
-    margin-bottom: 10%;
-  }
-
 }
