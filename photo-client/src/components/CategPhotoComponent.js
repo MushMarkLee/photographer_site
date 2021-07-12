@@ -78,7 +78,7 @@ class CategoryPhotoComponent extends Component {
             let categories = this.state.photos.map(photo => photo.theme)
 
             let uniq_categories = [...new Set(categories)].sort().map(category => (
-                <div className='col-xs-12 col-sm-4 align-items-center'>
+                <div className='col-xs-12 col-sm-4 align-items-center' id='photoscatsmain'>
                         <h1 className='photocategory'> {this.handleRus(category)}</h1>
                         <img src={this.handleFirstPhoto(category)} className='photomain' />
                         <Link to={`/photos/` + category}>
