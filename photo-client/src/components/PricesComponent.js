@@ -12,7 +12,7 @@ function Prices() {
                     <div className="col-xs-12 col-sm-12 col-md-12 text-center">
                         <h5 id='pricesheader'> Услуги </h5>
                     </div>
-                    <div className='col-xs-12 col-sm-4'>
+                    <div className='col-xs-12 col-sm-4' id='pricescard'>
                         <div className="card1">
                             <div className="cbody">
                                 <div className="row no-gutters align-items-center">
@@ -44,10 +44,10 @@ function Prices() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-xs-12 col-sm-4 '>
+                    <div className='col-xs-12 col-sm-4' id='pricescard2'>
                         <div className="card1">
                             <div className="cbody">
-                                <div className="row no-gutters align-items-center">
+                                <div className="row align-items-center">
                                     <div className="col-xs-12 col-sm-12">
                                         <h3 className='card-header'> Фаворит </h3>
                                         <div className='card-text'>
@@ -71,7 +71,7 @@ function Prices() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-xs-12 col-sm-4'>
+                    <div className='col-xs-12 col-sm-4' id='pricescard3'>
                         <div className="card1">
                             <div className="cbody">
                                 <div className="row no-gutters align-items-center">

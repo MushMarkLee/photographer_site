@@ -55,10 +55,10 @@ class CommentRender extends Component {
         let show = this.state.comments.map((comment) =>
 
                 <div className='row' id='commentarii'>
-                    <div className='col-xs-6 col-sm-2 col-md-2'>
+                    <div className='col-xs-12 col-sm-2 col-md-2 justify-xs-center' >
                         <img src={baseUrl+ comment.image} id='avatar'/>
                     </div>
-                    <div className='col-xs-6 col-sm-6 col-md-8'>
+                    <div className='col-xs-12 col-sm-6 col-md-8 justify-xs-center' id='commentbody'>
                         <p id='commentauthor'> {comment.author} </p>
                         <p id='commentstar'>{this.handleStar(comment.rating)}</p>
                         <p id='commenttext'> {comment.comment}</p>

@@ -37,6 +37,7 @@ class Main extends Component {
         this.handleRenderPhotos();
         this.handleRenderOrders()
 
+
     }
     handleRenderPhotos = () => {
         this.setState({...this.state, isFetching: true});
@@ -66,13 +67,12 @@ class Main extends Component {
 
     render() {
 
-
         return(
             <div>
                 <React.Fragment>
                     <Switch>
 
-                        <Route path='/contact' component={ContactRenderPage} />
+                        <Route  path='/contact' component={ContactRenderPage} />
 
                         <Route path='/prices' component={Prices} />
                         <Route path='/comments' component={RenderPageComments} />
