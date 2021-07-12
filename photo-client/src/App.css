@@ -676,7 +676,7 @@ img {
     margin-top: 20%;
     color: #9D6455;
     font-family: 'Futurica_Light';
-    font-size: 2.7ch;
+    font-size: 2.5ch;
     font-weight: bold;
     text-align: center;
   }
@@ -1608,8 +1608,8 @@ img {
 /*CONTACTPAGE*/
 /*mobile*/
 @media screen and (max-width: 700px){
-  .icon, .icon:hover{
-    width: 30px;
+  .icon {
+    width: 9%;
     margin-bottom: 5px;
     filter: invert(66%) sepia(3%) saturate(3323%) hue-rotate(329deg) brightness(86%) contrast(75%);
     margin-right: 10px;
