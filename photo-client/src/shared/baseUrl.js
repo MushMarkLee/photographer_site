@@ -1,6 +1,6 @@
 
-export const baseUrl = 'http://139.59.157.47:5000/';
+export const baseUrl = 'http://35.158.10.26:5000/';
 
-export const adminApi = 'http://139.59.157.47:5000/admin/';
+export const adminApi = 'http://35.158.10.26:5000/admin/';
 
 export let globalVars = {'token': null}
