@@ -26,7 +26,7 @@ def login():
     body = request.get_json()
     username = body["user"]
     password = body["pass"]
-    if username == "admin" and password == "irina1996":
+    if username == "admin" and password == "password":
         access_token = create_access_token(identity={
             'role': 'admin',
         }, expires_delta=False)
