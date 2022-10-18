@@ -9,11 +9,6 @@ user_api = Blueprint('user-api', __name__, template_folder='templates')
 PHOTO_DB = InitializeDB()
 
 
-@user_api.route('/')
-def hello_maria():
-    return 'Hello, Maria!'
-
-
 @user_api.route('/image', methods=['GET', 'POST'])
 @cross_origin()
 def upload_image():
